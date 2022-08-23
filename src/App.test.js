@@ -17,7 +17,7 @@ test('button has initial color', () => {
   expect(colorButton).toHaveStyle({ backgroundColor: 'MidnightBlue' });
 
   // expect the button text to be 'Change to red'
-  expect(colorButton.textContent).toBe('Change to Medium Violet Red')
+  expect(colorButton).toHaveTextContent('Change to Medium Violet Red')
 });
 
 test('Checkbox disable button on first click enables on second click', () => {
